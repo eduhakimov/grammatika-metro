@@ -23,3 +23,7 @@ Ingliz tili grammatikasini o'zbek tilida, bekatma-bekat o'rgatadigan interaktiv 
 - `src/d4.js`: har bir savolning qoidasi va noto'g'ri variantlar izohi
 - `src/app.js`: platforma mantig'i
 - `build.sh`: `src` dagi qismlardan `index.html` ni yig'adi
+
+## Mualliflik huquqi / Copyright
+
+© 2026 Bahtiyorjon Hakimov. Barcha huquqlar himoyalangan. All rights reserved. Batafsil: [LICENSE](LICENSE)

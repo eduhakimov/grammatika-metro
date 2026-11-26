@@ -1,0 +1,57 @@
+Grammatika Metro
+Copyright (c) 2026 Bahtiyorjon Hakimov (Hakimov Bahtiyorjon Muzaffar o'g'li)
+
+All rights reserved.
+Barcha huquqlar himoyalangan.
+Все права защищены.
+
+--------------------------------------------------------------------------
+O'ZBEKCHA (qisqacha)
+Ushbu repozitoriydagi barcha materiallar (dastur kodi, matnlar, rasmlar,
+dizayn, interaktiv mashqlar va boshqalar) muallifning mulki bo'lib,
+O'zbekiston Respublikasining mualliflik huquqi to'g'risidagi qonunlari va
+xalqaro shartnomalar bilan himoyalangan. Ko'rish mumkin; muallifning yozma
+ruxsatisiz nusxa ko'chirish, o'zgartirish, tarqatish va tijorat maqsadida
+foydalanish taqiqlanadi.
+
+РУССКИЙ (кратко)
+Все материалы этого репозитория (программный код, тексты, изображения,
+дизайн, интерактивные упражнения и прочее) являются собственностью автора и
+охраняются законодательством Республики Узбекистан об авторском праве и
+международными договорами. Просмотр разрешён; копирование, изменение,
+распространение и коммерческое использование без письменного разрешения
+автора запрещены.
+--------------------------------------------------------------------------
+
+ENGLISH (governing text)
+
+1. Ownership. All contents of this repository, including source code,
+   text, images, audio, video, designs, interactive exercises and
+   documentation, are the property of Bahtiyorjon Hakimov (Hakimov
+   Bahtiyorjon Muzaffar o'g'li), except for the third-party components
+   listed in section 4.
+
+2. Legal protection. These materials are protected by the copyright laws
+   of the Republic of Uzbekistan (including the Law "On Copyright and
+   Related Rights") and by international treaties, including the Berne
+   Convention for the Protection of Literary and Artistic Works.
+
+3. Permitted and prohibited use. You may view the contents of this
+   repository. Without the prior written permission of the copyright
+   holder you may NOT copy, reproduce, modify, translate, adapt, publish,
+   distribute, sublicense, sell, or otherwise use these materials, in
+   whole or in part, for any purpose, including commercial purposes.
+   Short quotations are allowed only with clear attribution to the author
+   and a link to the original source.
+
+4. Third-party components. The following components are not owned by the
+   copyright holder and remain under their own licenses and copyrights:
+  - Google Fonts loaded from fonts.googleapis.com (Bricolage Grotesque, Onest, JetBrains Mono) - SIL Open Font License 1.1, (c) their respective designers.
+  - Example sentences may quote or adapt common English usage; any quoted third-party material remains the property of its owners.
+   Nothing in this notice restricts any rights granted by those licenses.
+
+5. No warranty. The materials are provided "as is", without warranty of
+   any kind.
+
+Contact for permissions / Ruxsat uchun murojaat / Контакт для разрешений:
+https://github.com/eduhakimov
