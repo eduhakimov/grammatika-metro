@@ -26,6 +26,18 @@
       e.preventDefault();
     }
   }, true);
+  // saytdan tashqariga olib boradigan havolalar yangi oynada ochiladi (rel="noopener")
+  document.addEventListener("click", function (e) {
+    var a = e.target && e.target.closest ? e.target.closest("a[href]") : null;
+    if (!a) { return; }
+    var u;
+    try { u = new URL(a.getAttribute("href"), location.href); } catch (x) { return; }
+    if ((u.protocol === "http:" || u.protocol === "https:") &&
+        u.hostname !== "eduhakimov.github.io" && u.hostname !== location.hostname) {
+      a.target = "_blank";
+      if (!/(^|\s)noopener(\s|$)/.test(a.rel || "")) { a.rel = ((a.rel || "") + " noopener").trim(); }
+    }
+  }, true);
   function qur() {
     if (!ruxsat) {
       var w = document.createElement("div");
