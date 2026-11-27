@@ -42,6 +42,31 @@
     a.title = "Muallif: " + MUALLIF + ". Barcha huquqlar himoyalangan. Bosh sahifaga qaytish: eduhakimov.github.io";
     a.textContent = "\u00a9 2026 Hakimov B.M. \u00b7 Bosh sahifa";
     document.body.appendChild(a);
+    kot();
+    window.addEventListener("resize", kot);
+    setInterval(kot, 1500);
+  }
+  // pastda qotirilgan menyu bo'lsa, yozuvlar uning ustiga ko'tariladi (tugmalarni to'smasin)
+  function kot() {
+    var h = 0, H = window.innerHeight;
+    [[0.2, 3], [0.5, 3], [0.8, 3], [0.2, 24], [0.5, 24], [0.8, 24], [0.5, 44]].forEach(function (f) {
+      var els = document.elementsFromPoint ? document.elementsFromPoint(window.innerWidth * f[0], H - f[1]) : [];
+      for (var i = 0; i < els.length; i++) {
+        var n = els[i];
+        if (/eh-mualliflik|eh-manba|lsn-manba/.test(n.getAttribute("class") || "")) { continue; }
+        while (n && n !== document.body && n !== document.documentElement) {
+          var p = getComputedStyle(n).position;
+          if (p === "fixed" || p === "sticky") {
+            var r = n.getBoundingClientRect();
+            if (r.height < H * 0.4 && r.bottom >= H - 60) { h = Math.max(h, H - r.top); }
+            break;
+          }
+          n = n.parentElement;
+        }
+      }
+    });
+    var b = document.querySelectorAll(".eh-mualliflik,.eh-manba,.lsn-manba");
+    for (var j = 0; j < b.length; j++) { b[j].style.bottom = (h + 6) + "px"; }
   }
   if (document.body) { qur(); } else { document.addEventListener("DOMContentLoaded", qur); }
 })();
