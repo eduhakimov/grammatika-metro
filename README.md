@@ -13,6 +13,8 @@ Ingliz tili grammatikasini o'zbek tilida, bekatma-bekat o'rgatadigan interaktiv 
 
 ## Ishga tushirish
 
+Onlayn: https://eduhakimov.github.io/grammatika-metro/
+
 `index.html` faylini brauzerda oching. Server kerak emas, natijalar brauzerning o'zida saqlanadi.
 
 ## Tuzilishi
@@ -22,6 +24,7 @@ Ingliz tili grammatikasini o'zbek tilida, bekatma-bekat o'rgatadigan interaktiv 
 - `src/d1.js`, `src/d2.js`, `src/d3.js`: darslar va mashqlar
 - `src/d4.js`: har bir savolning qoidasi va noto'g'ri variantlar izohi
 - `src/app.js`: platforma mantig'i
+- `src/oxiri.html`: mualliflik yozuvi, bosh saytga havola va himoya skripti
 - `build.sh`: `src` dagi qismlardan `index.html` ni yig'adi
 
 ## Mualliflik huquqi / Copyright

@@ -4,6 +4,11 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Grammatika Metro</title>
+<!-- eduhakimov-himoya -->
+<meta name="author" content="Hakimov Bahtiyorjon Muzaffar o'g'li">
+<meta name="copyright" content="(c) 2026 Hakimov Bahtiyorjon Muzaffar o'g'li. Barcha huquqlar himoyalangan. All rights reserved.">
+<meta name="rights" content="All rights reserved">
+<link rel="license" href="https://github.com/eduhakimov/grammatika-metro/blob/main/LICENSE">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Onest:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
 <style>
@@ -1912,6 +1917,54 @@ function boot(d){
 }
 window.claude?.hot?.snapshot?.(()=>P);
 window.claude?.hot?.ready?window.claude.hot.ready(boot):boot(window.claude?.hot?.data??{});
+</script>
+<!-- eduhakimov-himoya -->
+<style>
+.eh-mualliflik{position:fixed;left:8px;bottom:6px;z-index:2147483000;font:11px/1.3 system-ui,-apple-system,"Segoe UI",sans-serif;
+  color:#fff;background:rgba(20,22,26,.55);padding:3px 8px;border-radius:999px;text-decoration:none;opacity:.7;
+  -webkit-backdrop-filter:blur(4px);backdrop-filter:blur(4px)}
+.eh-mualliflik:hover,.eh-mualliflik:focus{opacity:1;text-decoration:underline}
+.eh-ogoh{position:fixed;inset:0;z-index:2147483646;background:#141517;color:#e8e8e6;display:flex;align-items:center;
+  justify-content:center;text-align:center;padding:24px;font:16px/1.6 system-ui,sans-serif}
+.eh-ogoh a{color:#7fb2f0}
+@media print{body>*{display:none!important}body:after{content:"Bu material mualliflik huquqi bilan himoyalangan. Chop etish taqiqlangan.";display:block;padding:40px;font:16px sans-serif}}
+</style>
+<script>
+(function () {
+  var NOM = "Grammatika Metro", ASL = "https://eduhakimov.github.io/grammatika-metro/", MUALLIF = "Hakimov Bahtiyorjon Muzaffar o'g'li";
+  var host = location.hostname;
+  var ruxsat = host === "eduhakimov.github.io" || host === "localhost" || host === "127.0.0.1";
+  try { if (window.top !== window.self) { window.top.location = window.self.location.href; } } catch (e) { }
+  function maydon(t) { return t && t.closest && t.closest("input,textarea,select,[contenteditable]"); }
+  document.addEventListener("contextmenu", function (e) { if (!maydon(e.target)) { e.preventDefault(); } });
+  ["copy", "cut"].forEach(function (ev) {
+    document.addEventListener(ev, function (e) { if (!maydon(e.target)) { e.preventDefault(); } });
+  });
+  document.addEventListener("keydown", function (e) {
+    var k = (e.key || "").toLowerCase(), c = e.ctrlKey || e.metaKey;
+    if ((c && (k === "s" || k === "u" || k === "p")) || (c && e.shiftKey && (k === "i" || k === "j"))) {
+      e.preventDefault();
+    }
+  }, true);
+  function qur() {
+    if (!ruxsat) {
+      var w = document.createElement("div");
+      w.className = "eh-ogoh";
+      w.innerHTML = "<div><b>Bu nusxa ruxsatsiz ko'chirilgan.</b><br>\u201c" + NOM +
+        "\u201d mualliflik huquqi bilan himoyalangan.<br>Muallif: " + MUALLIF +
+        "<br><br>Asl manba: <a href='" + ASL + "'>" + ASL + "</a></div>";
+      document.body.appendChild(w);
+      return;
+    }
+    var a = document.createElement("a");
+    a.className = "eh-mualliflik";
+    a.href = "https://eduhakimov.github.io/";
+    a.title = "Muallif: " + MUALLIF + ". Barcha huquqlar himoyalangan. Bosh sahifaga qaytish: eduhakimov.github.io";
+    a.textContent = "\u00a9 2026 Hakimov B.M. \u00b7 Bosh sahifa";
+    document.body.appendChild(a);
+  }
+  if (document.body) { qur(); } else { document.addEventListener("DOMContentLoaded", qur); }
+})();
 </script>
 </body>
 </html>

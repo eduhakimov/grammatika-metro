@@ -850,5 +850,3 @@ function boot(d){
 window.claude?.hot?.snapshot?.(()=>P);
 window.claude?.hot?.ready?window.claude.hot.ready(boot):boot(window.claude?.hot?.data??{});
 </script>
-</body>
-</html>
